@@ -34,7 +34,7 @@ int main() {
         }
     }
 
-    // Account for last line if file doesn't end with a newline
+
     if (char_count > 0 && c != '\n') {
         line_count++;
     }
